@@ -10,11 +10,12 @@ De intressanta filerna är:
 Och ev. `tsconfig.json`.
 
 
-## Checkout, install:
+## Checkout, install, build:
 
     git clone git@github.com:npup/dila03.git
     cd dila03
     npm i
+    npm run build
 
 ## Test-webbsidor
 
