@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + TS + a library</title>
+    </head>
+
+    <body>
+        <h1>Testar esm</h1>
+        <p>Kolla i konsolen...</p>
+
+        <p>
+            <a href="./test-esm.html">Test av esm</a>
+        </p>
+        <p>
+            <a href="./test-umd.html">Test av umd</a>
+        </p>
+
+        <script type="module">
+            import * as dila03 from "./dist/dila03.js";
+            console.log(dila03.foo("heja sverige"));
+            console.log(
+                dila03.kamelifiera({ "heja-sverige-friskt-humör": 12 })
+            );
+        </script>
+    </body>
+</html>

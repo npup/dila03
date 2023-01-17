@@ -13,15 +13,15 @@ export default defineConfig({
         sourcemap: true,
         minify: true,
         lib: {
-            formats: ["es", "cjs"],
+            formats: ["es", "umd"],
             entry: path.resolve(__dirname, "src/index.ts"),
             name: libName,
             fileName: (format) => {
                 switch (format) {
-                    case "cjs":
-                        return `${libName}.cjs`;
                     case "es":
                         return `${libName}.js`;
+                    case "umd":
+                        return `${libName}.umd.js`;
                 }
                 throw Error(`Konstigt modulformat: ${format}`);
             },

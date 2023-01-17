@@ -9,13 +9,20 @@ De intressanta filerna är:
 
 Och ev. `tsconfig.json`.
 
-## Utveckling och publicera nytt
 
-Checkout, install:
+## Checkout, install:
 
     git clone git@github.com:npup/dila03.git
     cd dila03
     npm i
+
+## Test-webbsidor
+
+    npm start
+
+Öppna webbläsaren på http://localhost:8080
+
+## Utveckling och publicera nytt
 
 
 ### Utveckling
