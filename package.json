@@ -1,0 +1,36 @@
+{
+    "type": "module",
+    "name": "dila03",
+    "description": "Testar att bygga lib",
+    "version": "0.1.0",
+    "main": "./dist/dila03.cjs",
+    "module": "./dist/dila03.js",
+    "exports": {
+        ".": {
+            "require": "./dist/dila03.cjs",
+            "import": "./dist/dila03.js"
+        }
+    },
+    "files": [
+        "dist/*"
+    ],
+    "scripts": {
+        "build": "vite build",
+        "prebuild": "npm run clean",
+        "clean": "rm -rf dist",
+        "test": "echo 'no tests :('",
+        "pub": "npm publish --dry-run"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.11.18",
+        "typescript": "^4.9.4",
+        "vite": "^4.0.4",
+        "vite-plugin-dts": "^1.7.1"
+    },
+    "dependencies": {
+        "camelize": "^1.0.1"
+    }
+}
