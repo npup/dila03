@@ -2,7 +2,7 @@
     "type": "module",
     "name": "dila03",
     "description": "Testar att bygga lib",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "main": "./dist/dila03.cjs",
     "module": "./dist/dila03.js",
     "exports": {
