@@ -2,12 +2,12 @@
     "type": "module",
     "name": "dila03",
     "description": "Testar att bygga lib",
-    "version": "0.1.2",
-    "main": "./dist/dila03.cjs",
+    "version": "0.1.3",
+    "main": "./dist/dila03.umd.cjs",
     "module": "./dist/dila03.js",
     "exports": {
         ".": {
-            "require": "./dist/dila03.cjs",
+            "require": "./dist/dila03.umd.cjs",
             "import": "./dist/dila03.js"
         }
     },

@@ -21,7 +21,7 @@ export default defineConfig({
                     case "es":
                         return `${libName}.js`;
                     case "umd":
-                        return `${libName}.umd.js`;
+                        return `${libName}.umd.cjs`;
                 }
                 throw Error(`Konstigt modulformat: ${format}`);
             },
